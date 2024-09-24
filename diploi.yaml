@@ -1,0 +1,25 @@
+diploiVersion: v1.0
+type: stack
+identifier: test-stack
+name: Test Stack
+description: This is a test stack for Diploi.
+author: Munkkeli
+components:
+  - name: Next.js
+    identifier: next
+    package: https://github.com/diploi/nextjs-postgresql-template@v0.4.9
+  - name: SvelteKit
+    identifier: sveltekit
+    package: https://github.com/diploi/sveltekit-template@v0.1.4
+  - name: Astro
+    identifier: astro
+    package: https://github.com/diploi/astro-template@v0.1.2
+  - name: PostgreSQL
+    identifier: postgres
+    package: https://github.com/diploi/addon-postgresql@15.8
+  - name: Redis
+    identifier: redis
+    package: https://github.com/diploi/addon-redis@14.6
+  - name: MySQL
+    identifier: mysql
+    package: https://github.com/diploi/addon-mysql@13.6

@@ -1,9 +1,7 @@
 diploiVersion: v1.0
 type: stack
-identifier: test-stack
 name: Test Stack
 description: This is a test stack for Diploi.
-author: Munkkeli
 components:
   - name: Next.js
     identifier: next

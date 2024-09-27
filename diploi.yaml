@@ -5,19 +5,20 @@ description: This is a test stack for Diploi.
 components:
   - name: Next.js
     identifier: next
-    package: https://github.com/diploi/nextjs-postgresql-template@v0.4.9
+    package: https://github.com/Munkkeli/diploi-comnponent-test#main
   - name: SvelteKit
     identifier: sveltekit
-    package: https://github.com/diploi/sveltekit-template@v0.1.4
+    package: https://github.com/Munkkeli/diploi-comnponent-test#main
   - name: Astro
     identifier: astro
-    package: https://github.com/diploi/astro-template@v0.1.2
+    package: https://github.com/Munkkeli/diploi-comnponent-test#main
+addons:
   - name: PostgreSQL
     identifier: postgres
-    package: https://github.com/diploi/addon-postgresql@15.8
+    package: https://github.com/Munkkeli/diploi-addon-test#main
   - name: Redis
     identifier: redis
-    package: https://github.com/diploi/addon-redis@14.6
+    package: https://github.com/Munkkeli/diploi-addon-test#main
   - name: MySQL
     identifier: mysql
-    package: https://github.com/diploi/addon-mysql@13.6
+    package: https://github.com/Munkkeli/diploi-addon-test#main
